@@ -16,23 +16,25 @@
 	<body>
 	
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
-		<a class="navbar-brand" href="#"><?php echo $_SERVER['HTTP_HOST']; ?></a>
-			
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#grboard2TopNav" aria-controls="grboard2TopNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggle-icon"></span>
-		</button>		
-		
-		<div id="grboard2TopNav" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav mr-auto">
-				<li class="nav-item active"><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" data-toggle="tooltip" title="<?php echo $lang['home_info']; ?>" class="nav-link">
-					Home</a></li>
-				<li class="nav-item"><a href="<?php echo $moveBackPath; ?>" class="nav-link" data-toggle="tooltip" title="이전 화면으로 이동 합니다">
-					Back</a></li>
-				<li class="nav-item"><a href="<?php echo $prePath; ?>/login" class="nav-link" data-toggle="tooltip" title="이미 계정이 있으시다면 여기를 클릭 하여 로그인 하실 수 있습니다"> 
-					Login</a></li>
-				<li class="nav-item"><a href="http://sirini.net" data-toggle="tooltip" title="Powered by GR Board 2 in GRBOARD.com" class="nav-link"> 
-					GR Board <sup>2</sup></a></li>
-			</ul>
+		<div class="container">
+			<a class="navbar-brand" href="#"><?php echo $_SERVER['HTTP_HOST']; ?></a>
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#grboard2TopNav" aria-controls="grboard2TopNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggle-icon"></span>
+			</button>		
+
+			<div id="grboard2TopNav" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav mr-auto">
+					<li class="nav-item active"><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>" data-toggle="tooltip" title="<?php echo $lang['home_info']; ?>" class="nav-link">
+						Home</a></li>
+					<li class="nav-item"><a href="<?php echo $moveBackPath; ?>" class="nav-link" data-toggle="tooltip" title="이전 화면으로 이동 합니다">
+						Back</a></li>
+					<li class="nav-item"><a href="<?php echo $prePath; ?>/login" class="nav-link" data-toggle="tooltip" title="이미 계정이 있으시다면 여기를 클릭 하여 로그인 하실 수 있습니다"> 
+						Login</a></li>
+					<li class="nav-item"><a href="http://sirini.net" data-toggle="tooltip" title="Powered by GR Board 2 in GRBOARD.com" class="nav-link"> 
+						GR Board <sup>2</sup></a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>		
 	
